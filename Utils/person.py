@@ -22,7 +22,6 @@ def create_random_full_name():
     name = fake.name()
     return name
 
-
 def create_random_first_name():
     """
     Generates a random first name using the Faker library.
@@ -111,6 +110,7 @@ def create_password():
     password = fake.password()
     return password
 
+password = fake.password()
 
 def create_birth_day():
     """

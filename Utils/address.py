@@ -15,11 +15,11 @@ def create_address():
 
     The function uses the Faker library to generate a Brazilian address, 
     which includes:
-    - Street name (rua)
-    - Street number (numero)
-    - City (cidade)
-    - Postal code (CEP)
-    - State (estado)
+    - [0] Street name (rua)
+    - [1] Street number (numero)
+    - [2] City (cidade)
+    - [3] Postal code (CEP)
+    - [4] State (estado)
 
     The address is split into multiple lines, and the function extracts and cleans
     each part of the address.
